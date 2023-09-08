@@ -15,8 +15,8 @@ github_username:  dirt19
 # Build settings
 baseurl: "" # the subpath of your site, e.g. /blog
 markdown: kramdown
-# theme: minimal-mistakes-jekyll
-remote_theme: pages_themes/minimal@v0.2.0
+theme: minimal-mistakes-jekyll
+#remote_theme: pages_themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
