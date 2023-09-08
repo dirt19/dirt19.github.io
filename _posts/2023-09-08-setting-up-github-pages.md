@@ -1,5 +1,5 @@
 ---
-layout: post
+# layout: post
 title:  "Setting Up GitHub Pages with Jekyll"
 date:   2023-09-08 08:25:00 -0600
 categories: jekyll update github
