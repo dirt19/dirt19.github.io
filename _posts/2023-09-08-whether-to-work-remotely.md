@@ -5,7 +5,7 @@ date:   2023-09-08 08:25:00 -0600
 categories: jekyll update github
 excerpt: "A discussion on the nature of work rather than location"
 ---
-### Summary
+## Summary
 Work is best done in person.
 
 ## Why do we work in the first place?
@@ -22,7 +22,7 @@ To work for a company is to learn the corporate culture, gain a sense of belongi
 
 It does not work to have employees commute to the office only to find themselves alone, logging into online meetings just as they would from home. It does not work to have some people on-site and others dialing in; the imbalance in being fully part of the conversation is apparent to everyone. It would be irrational to neglect one portion of the employees and favor another, and therefore the management must duly and solicitously provide for the welfare and the comfort of the working classes.
 
-Career development is still far more about who you know rather than what you know. In person, you can hear, see, or find people who work in your area and learn from them. How did they get to the position they are in now? If those conversations happen over a virtual meeting, they're often far more succint and you do not learn as much about the person.
+Career development is still far more about who you know rather than what you know. In person, you can hear, see, or find people who work in your area and learn from them. How did they get to the position they are in now? If those conversations happen over a virtual meeting, they're often far more succinct and you do not learn as much about the person.
 
 Corporate CULTure often is, but does not have to be, at odds with family culture. Culture comes from "cultivate" - to make tend and nurture something, to grow it. What is at the center of the company? What is the primary aim of company? For example, Seagate Technology exists to provide storage solutions in all market segments; Trimble and all the subsidiaries basically aim to provide industrial precision location services and anything related to the question of "Where is 'here'?".
 
@@ -48,7 +48,7 @@ A maxim in management is something like "You can't manage what you don't measure
 
 In addition, an employee just becomes a productivity unit - a number, after just a couple levels of management. This is understandable though, because the CEO cannot micromanage everyone. The manager does not care whether the team uses an elastic load balancer or application load balancer or whether that choice is dictated by years of tech debt. All the manager cares about is getting keeping the application up and running so the team can be allocated to the next project. However, to misuse people as though they were mere things in pursuit of gain, or to value them solely for their productive powers - that is truly shameful and inhuman.
 
-Some corporations hired significantly during the 2020 Pandemic Layoffs just to hold talent - productivity units. When the company encounters economic stressors, it still needs to pay shareholders. The most immediate affect on the balance books to manage operational expenses, so some employees must be released from service (e.g. Alphabet, Meta, Twitter, Netflix).
+Some corporations hired significantly during the 2020 Pandemic Layoffs just to hold talent - productivity units. When the company encounters economic stressors, it still needs to pay shareholders. The most immediate affect on the balance books is to manage operational expenses. Employees have a large impact on operational expenses, so some employees must be released from service (e.g. Alphabet, Meta, Twitter, Netflix).
 
 ## On the Location of the Work
 A dedicated space vs. Where you always are
@@ -56,7 +56,7 @@ A dedicated space vs. Where you always are
 # Corporations provide space for their employees
 From desks to conference rooms, lunchrooms, fitness centers, or even Google's famous "on-campus dentist", the company provides space for the employees to focus on their work and interact with those who are working similar goals. However, the open floor plans and desks in rows seem to need a review every time new management takes over a company. None of the employees like open floor plans. They do not feel comfortable, they feel exposed.
 
-Lockheed Martin / NASA observed how engineers and scientists interacted in labratory spaces. That is where they came up with the term "design studios" where there is a central table surrounded by personal compute stations.
+Lockheed Martin / NASA observed how engineers and scientists interacted in laboratory spaces. That is where they came up with the term "design studios" where there is a central table surrounded by personal compute stations.
 
 At home though, it is healthy and important to have a dedicated work space. Mixing the use of that space can breed too much familiarity, for example, playing games on your work PC or something.
 
