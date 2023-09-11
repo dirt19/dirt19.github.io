@@ -8,9 +8,9 @@ categories: cybersecurity compliance monitoring backups risk severity encryption
 The world is growing evermore connected. Cybersecurity best practices should be in the to-do list, periodically reviewed, and acted upon. There is always room for improvement.
 
 ## Segregated Environments
-* Development – testing and development done here
-* Staging – integration testing, rollback testing, preparing for Prod deploy
-* Production – necessarily rigid
+* Development: testing and development done here
+* Staging: integration testing, rollback testing, preparing for Prod deploy
+* Production: necessarily rigid
 * Environmental alignment and Hydration
 
 ## Access Control Lists - Who can do What Where and When?
