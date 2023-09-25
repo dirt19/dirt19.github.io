@@ -1,7 +1,7 @@
 ---
 # layout: post
 title:  "DSLR Milkyway Photography"
-date:   2023-09-13 10:25:00 -0600
+date:   2023-09-24 19:25:00 -0600
 categories: DSLR astrophotography optics calculations
 excerpt: "The Milkyway is beautiful this time of year."
 ---
