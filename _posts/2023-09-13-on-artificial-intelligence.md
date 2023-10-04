@@ -1,8 +1,9 @@
 ---
-# layout: post
+layout: post
 title:  "On Artificial Intelligence"
 date:   2023-09-13 10:25:00 -0600
 categories: AI artificial-intelligence
+permalink: /ai-humanity
 excerpt: "Sometimes in creating and using a tool, you become reliant upon it."
 ---
 ## Summary

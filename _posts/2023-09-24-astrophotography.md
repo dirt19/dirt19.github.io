@@ -1,8 +1,9 @@
 ---
-# layout: post
+layout: post
 title:  "DSLR Milkyway Photography"
 date:   2023-09-24 19:25:00 -0600
 categories: DSLR astrophotography optics calculations
+permalink: /dslr-astro
 excerpt: "The Milkyway is beautiful this time of year."
 ---
 ## Summary
@@ -43,7 +44,7 @@ The question becomes, "how much sky does one pixel cover?" and "how do I minimiz
 ## Short Version
 "There isn't a short version, but somewhere between 9 and 25 seconds is a good range to experiment with."
 
-## References 
+## References
 * [Lonely Speck - Advanced Astrophotography Shutter Time Calculator](https://www.lonelyspeck.com/advanced-astrophotography-shutter-time-calculator/)
 * [Kelly Flanagan - Field Rotation and Alt-Azimuth Mounted Telescopes](https://kelly.flanagan.io/astronomy/astrophotography/field-rotation-and-alt-azimuth-mounted-telescopes/)
 * Dark Sky calculators

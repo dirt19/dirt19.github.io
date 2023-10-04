@@ -1,8 +1,9 @@
 ---
-# layout: post
+layout: post
 title:  "Whether to Work Remotely"
 date:   2023-09-08 08:25:00 -0600
 categories: jekyll update github
+permalink: /wfh-vs-rto
 excerpt: "A discussion on the nature of work rather than location"
 ---
 ## Summary

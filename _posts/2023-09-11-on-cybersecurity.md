@@ -1,7 +1,8 @@
 ---
-# layout: post
+layout: post
 title:  "On Cybersecurity"
 date:   2023-09-11 16:55:00 -0600
+permalink: /cybersec
 categories: cybersecurity compliance monitoring backups risk severity encryption
 ---
 ## Summary

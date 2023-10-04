@@ -1,7 +1,8 @@
 ---
-# layout: post
+layout: post
 title:  "Financial Institution Feature"
 date:   2023-09-10 20:51:00 -0600
+permalink: /agg-token
 categories: cybersecurity finance online
 ---
 ## Summary

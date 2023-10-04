@@ -1,8 +1,9 @@
 ---
-# layout: post
+layout: post
 title:  "What is that aircraft?"
 date:   2023-09-10 21:26:00 -0600
 categories: DSP SDR ADS-B virtual radar
+permalink: /virtual-radar
 excerpt: "What is that aircraft"
 ---
 ## Summary
