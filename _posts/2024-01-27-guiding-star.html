@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Guiding Star"
+date:   2024-01-27 08:43:00 -0700
+categories: science
+permalink: /guiding-star
+---
+<h2>Guiding Star</h2>
+<br/>
+As an amateur photographer who occasionally likes taking pictures of stuff in the night sky, I want to get the best pictures I can with the equipment that I have. <br/>
+<br/>
+Consumer telescopes are great for hobbyists. However, size and lens qualities soon become limiting factors leading to the image quality vs sky coverage and the diffraction limit. The diffraction limit (the sharpest image a telescope can make) is proportional to the size of the aperature (bigger mirrors make sharper images), but this only goes so far with ground-based observations. The next problem is to solve blurring caused by turbulent layers in Earth's atmosphere that distort wavefronts. That was why the Hubble Space Telescope was a huge advancement - to get outside the atmosphere, above the turbulance. Advances in technology and the space age lead to the development of adaptive optics. The new problem to solve is nonmehanical techniques for the high-resolution, real-time, adaptive optics to handle vertical atmospheric turbulence in satellite communications channels.<br/>
+<br/>
+The four primary elements of an adaptive optics include a known source and then a deformation feedback loop that includes a guide star (known and measureable source), a wave-front sensor, and a wave-front corrector - all done as fast as possible to make the corrections that are actively occurring as the light is currently traveling through the atmosphere. This sort of project is made possible by several key elements of technology, some are: lasers, faster computers, and deformable mirrors.<br/>
+<br/>
+The lasers produce the "guide star." It also cannot be just any laser, it should be a sodium laser (yellowish-orange in the visible light). This is because it can activate a layer of sodium very high (60 mi) in the atmosphere so as to be affected by the atmospheric turbulance. The laser guide star information is fed into fast computers that measure details of blurring from guide star, covert to wavefront shape and calculate the correction to apply, then optically correct the wavefront with a deformable mirror. <br/>
+<br/>
+Computers in the feedback loop are the usual balance of cost and speed (FPGA, bandwidth, frame-rate), but also need to coordinate the mirror actuators where the higher number of actuators provides higher resolution of deformations and the type of actuators (piezoelectric, VCM, MEMS) is limited by hardware and physically how fast the actuator can move (e.g. a thermal deformation is insufficient in terms of accuracy and speed, but has the benefit of fewer or no moving parts).<br/>
+<br/>
+Mirrors and lenses and properties of them comprise the optical components of the loop. Mirror dimensions and coatings as well as number of mirrors are a balance of the project needs, budget, and physics. Large format deformable mirrors with variable reluctance actuators piped through software can do the optical interferometry using multiple telescopes to make planet-finding much easier.<br/>
+<br/>
+Off-the-shelf adaptive optics is not currently feasible for me. So, I will stick to a tripod, DSLR, and timed-trigger.
+<br/><br/><br/>
+<b>References:</b>
+<ul>
+<li>1953 (Horace Babcock adaptive optics)</li>
+<li>Starfire Optical Range (Rober Fugate)</li>
+<li>Extremely Large Telescope</li>
+<li>Zernike Polynomials</li>
+</ul>
