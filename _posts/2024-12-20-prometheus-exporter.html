@@ -17,7 +17,7 @@ permalink: /prometheus-exporter
         <h2>2. Prerequisites</h2>
         <ul>
             <li>Basic knowledge of Python.</li>
-            <li>Prometheus setup (brief overview).</li>
+            <li>Prometheus setup (brief overview). The most basic way to describe it is periodically publishing text in a format that Prometheus understands (exporting) and then the Prometheus collects and stores that information in a database</li>
             <li>Python 3.x and necessary libraries.</li>
             <li>Install <code>prometheus_client</code> library (<code>pip install prometheus_client</code>).</li>
         </ul>
@@ -33,7 +33,14 @@ import time  # for simulating metrics over time</code></pre>
 
     <section>
         <h2>4. Define Custom Metrics</h2>
-        <p>Introduction to Prometheus metric types (Counter, Gauge, Histogram, Summary).</p>
+        <p>Introduction to Prometheus metric types (Counter, Gauge, Histogram, Summary).
+            <ul>
+                <li>Counter: A counter is a cumulative metric that represents a single monotonically increasing counter whose value can only increase or be reset to zero on restart.</li>
+                <li>Gauge: A gauge is a metric that represents a single numerical value that can arbitrarily go up and down.</li>
+                <li>Histogram: A histogram (statistics) samples observations and counts them in configurable buckets.</li>
+                <li>Summary: A summary samples observations, but also provides a total count of observations, a sum of all observed values, and calculates configurable quantiles over a sliding time window.</li>
+            </ul>
+        </p>
         <p>Create a simple <code>Gauge</code> metric to track a custom value (e.g., a random metric like "custom_temperature").</p>
         <pre><code>custom_temperature = Gauge('custom_temperature', 'Custom temperature metric')</code></pre>
     </section>
@@ -73,15 +80,22 @@ import time  # for simulating metrics over time</code></pre>
 
     <section>
         <h2>9. Conclusion</h2>
-        <p>Recap the process of creating a simple custom Prometheus exporter in Python.</p>
-        <p>Encourage experimentation with different metrics and use cases.</p>
-        <p>Resources for further learning on Prometheus and Python exporters.</p>
+        <p>In Recapm the process of creating a simple custom Prometheus exporter in Python is to periodically publish text in a format that Prometheus understands (exporting) and then have Prometheus scrape and store that information in a database</p>
+        <p>In your experimentation with different metrics and use cases, get to know a visualization engine such as Grafana which has a number of community-provided pre-configured dashboards for all kinds of metrics.</p>
+        <p>Resources for further learning on Prometheus and Python exporters.
+            <ul>
+                <li><a href="https://prometheus.io">Prometheus</a></li>
+                <li><a href="https://grafana.com">Grafana</a></li>
+                <li><a href="https://grafana.com/grafana/dashboards/">Grafana Dashboards</a></li>
+            </ul>
+        </p>
+
     </section>
 
     <section>
         <h2>10. Next Steps</h2>
         <ul>
-            <li>Suggest exploring more complex exporters.</li>
-            <li>Integration with Grafana for visualizing the custom metrics.</li>
+            <li>Exporters, though simple in concept, can become fairly complex. Collecting data from multiple sources and formulaically manipulating the data can be complex. For example, collection metrics of a kubernetes cluster provides insight into cluster health, pod statuses, node metrics, runner pools, etc.</li>
+            <li>Integration with Grafana for visualizing any metrics is a great next step for observing trends in data provided from exporters</li>
         </ul>
     </section>
